@@ -1,0 +1,25 @@
+---
+title: "Base R Histo"
+author: "Michael Drummond"
+format: html
+editor: source
+---
+
+## 
+
+## Make histogram in base R
+
+From <https://r-graph-gallery.com/190-mirrored-histogram.html>
+
+```{r}
+#Create Data
+x1 = rnorm(100)
+x2 = rnorm(100)+rep(2,100)
+par(mfrow=c(2,1))
+ 
+#Make the plot
+par(mar=c(0,5,3,3))
+hist(x1 , main="" , xlim=c(-2,5), ylab="Oranges", xlab="", ylim=c(0,25) , xaxt="n", las=1 , col="purple", breaks=10)
+par(mar=c(5,5,0,3))
+hist(x2 , main="" , xlim=c(-2,5), ylab="Apples", xlab="Number of Drinks", ylim=c(25,0) , las=1 , col="pink"  , breaks=10)
+```
