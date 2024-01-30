@@ -1,0 +1,19 @@
+---
+title: "Blog Notes"
+author: "Michael Drummond"
+format: 
+  html: 
+    toc: true
+editor: source
+---
+
+Link to Article: https://www.r-bloggers.com/2023/05/how-r-shiny-helps-protect-coral-reefs-in-micronesia/
+
+I found this post on how scientists are using R to help monitor coral reefs in Micronesia, as well as educate people on the current challenges corals are facing around the world.
+
+The group utilized Shiny R to develop their app, called "The Micronesia Reef Monitoring App", which shows data on the different types of fishes found in a certain area, as well as how their numbers change over time. It is an easy to understand interface, which makes it a very valuable form of scientific communication that students around the globe can use.
+
+Hopefully, scientists will keep using methods like this to help communicate the challenges that modern coral reefs are facing in the world today, and spread awareness on the threats of coral bleaching.
+
+
+
