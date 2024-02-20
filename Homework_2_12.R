@@ -1,32 +1,32 @@
-Notes on the Paper
+#Notes on the Paper
 
-Generating Tidy Data
+#Generating Tidy Data
 
-Each variable should be in a column.
+  #Each variable should be in a column.
 
-Each observation should be in a row.
+  #Each observation should be in a row.
 
-Each value should be in its cell.
+  #Each value should be in its cell.
 
-Benefits
+#Benefits
 
-Tidy data simplifies data manipulation tasks
+  #Tidy data simplifies data manipulation tasks
 
-Makes reproducibility easier
+  #Makes reproducibility easier
 
-Common issues
+#Common issues
 
-Variables in both rows and columns
+  #Variables in both rows and columns
 
-Multiple variables stored in a single column
+ #Multiple variables stored in a single column
 
-Multiple types of observational unit in the same table.
+  #Multiple types of observational unit in the same table.
 
-R functions
+#R functions
 
-from the tidyr package, there are functions that can be used to reshape the data easily
+#from the tidyr package, there are functions that can be used to reshape the data easily
 
-This paper is a good reference for the functions available in tidyr
+#This paper is a good reference for the functions available in tidyr
 
 ##Homework Pt. 2
 
